@@ -12,9 +12,9 @@ i.icon {
   display: inline-block; }
 
 body {
-  font-size: 16px;
-  line-height: 1.5em;
-  min-width: 1000px; }
+  font-size: 18px;
+  line-height: 1.75em;
+}
 
 body, h1, h2, h3, h4, h5, h6, p, input, textarea {
   font-family: 'Roboto', sans-serif;
@@ -85,13 +85,19 @@ a.external:after {
   content: " "; }
 
 .container {
-  width: 960px;
+  max-width: 600px;
   margin: auto; }
   .container:before, .container:after {
     content: " ";
     display: table; }
   .container:after {
     clear: both; }
+
+@media (max-width: 640px) {
+  body > .container {
+    margin: 0 20px;
+  }
+}
 
 .left, .right {
   width: 50%;
