@@ -6,7 +6,7 @@ i.icon {
   display: inline-block; }
 
 body {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.75em;
 }
 
@@ -22,6 +22,7 @@ h1 {
   line-height: 1.5em; }
 
 h2 {
+  text-align: center;
   font-size: 36px;
   line-height: 1.5em; }
 
@@ -45,6 +46,7 @@ a {
     color: #987631; }
 
 p {
+  text-indent: 3em;
   margin-bottom: 1em; }
 
 .button, input[type='submit'], input[type='button'], button {
