@@ -88,12 +88,6 @@ a.external:after {
   .container:after {
     clear: both; }
 
-@media (max-width: 640px) {
-  body > .container {
-    margin: 0 20px;
-  }
-}
-
 .left, .right {
   width: 50%;
   float: left;
@@ -126,24 +120,12 @@ header {
     text-decoration: none;
     color: white; }
   header nav .logo {
-    float: left;
     font-size: 32px;
+    text-align: center;
     letter-spacing: 2px;
     font-weight: 300; }
     header nav .logo a .icon {
       color: #ffc015; }
-  header nav .actions {
-    float: right;
-    line-height: 32px; }
-    header nav .actions a {
-      margin-left: 1em; }
-      header nav .actions a:link {
-        background: transparent; }
-  header.compact {
-    padding: 3px 8px;
-    border-bottom-width: 1px; }
-    header.compact nav.container {
-      width: auto; }
 
 section.content {
   min-height: 400px; }
