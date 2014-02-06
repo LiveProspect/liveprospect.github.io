@@ -1,31 +1,37 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width">
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
+  <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700|Roboto:400,400italic,300italic,300,700,700italic|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+  <header>
+    <nav class="container">
+      <div class="logo">
+        <a href="/">
+          <i class="icon">&#xf095</i> LiveProspect Blog
+        </a>
+      </div>
+    </nav>
+  </header>
 
-    </head>
-    <body>
+  <div class='container'>
 
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-          </div>
+    {{ content }}
 
-          {{ content }}
+    <footer>
+      &copy; 2013 LiveProspect &middot;
+      Cambridge, MA &middot;
+      <a href="tel:+16176820582">(617) 682-0582</a> &middot;
+      <a href="mailto:info@liveprospect.net">info@liveprospect.net</a>
+    </footer>
+  </div>
 
-          <div class="footer">
-            &copy; 2013 LiveProspect &middot;
-            Cambridge, MA &middot;
-            <a href="tel:+16176820582">(617) 682-0582</a> &middot;
-            <a href="mailto:info@liveprospect.net">info@liveprospect.net</a>
-          </div>
-        </div>
-
-    </body>
+</body>
 </html>
