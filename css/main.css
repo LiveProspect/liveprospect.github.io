@@ -81,6 +81,7 @@ a.external:after {
 .container {
   max-width: 600px;
   min-width: 480px;
+  box-sizing: border-box;
   margin: auto; }
   .container:before, .container:after {
     content: " ";
