@@ -88,6 +88,10 @@ a.external:after {
   .container:after {
     clear: both; }
 
+body > .container {
+  padding: 0 1em;
+}
+
 .left, .right {
   width: 50%;
   float: left;
